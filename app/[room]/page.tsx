@@ -348,7 +348,7 @@ export default function PageRandom({
                     <DialogHeader>
                         <DialogTitle className="text-center">QR của tui</DialogTitle>
                         <DialogDescription className="text-center">
-                            Lì xì chủ shop ly Coffee😁, nếu bạn thấy thú vị 👇
+                            Lì xì chủ shop ly Coffee 😁, nếu bạn thấy thú vị 👇
                         </DialogDescription>
                     </DialogHeader>
                     <div className="w-full flex justify-center items-center">
