@@ -352,7 +352,7 @@ export default function PageRandom({
                         </DialogDescription>
                     </DialogHeader>
                     <div className="w-full flex justify-center items-center">
-                        <Image src="/my-qr.jpg" width={200} height={300} alt="My Qr code" className="rounded-lg object-cover" />
+                        <Image src="" width={200} height={300} alt="My Qr code" className="rounded-lg object-cover" />
                     </div>
                 </DialogContent>
             </Dialog>
