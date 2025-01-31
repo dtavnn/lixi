@@ -339,7 +339,6 @@ export default function PageRandom({
                         <p className="text-white text-center font-mono text-xs transition-transform transform hover:scale-105">
                             © 2025, Designed by Anhdt.
                         </p>
-                    </Link>
                 </div>
             </div>
             <FloatButton icon={<CoffeeOutlined className="text-red-500" />} onClick={() => setIsVisibleCoffee(true)} />
@@ -352,7 +351,7 @@ export default function PageRandom({
                         </DialogDescription>
                     </DialogHeader>
                     <div className="w-full flex justify-center items-center">
-                        <Image src="" width={200} height={300} alt="My Qr code" className="rounded-lg object-cover" />
+                        <Image src="/my-qr.jpg" width={200} height={300} alt="My Qr code" className="rounded-lg object-cover" />
                     </div>
                 </DialogContent>
             </Dialog>
