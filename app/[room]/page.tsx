@@ -336,9 +336,11 @@ export default function PageRandom({
             </AnimatePresence>
             <div className="absolute left-0 right-0 bottom-[10px] ">
                 <div className="w-full flex justify-center items-center">
+                    <Link href="https://nguyenconggioi.me" target="_blank">
                         <p className="text-white text-center font-mono text-xs transition-transform transform hover:scale-105">
                             © 2025, Designed by Anhdt.
                         </p>
+                    </Link>
                 </div>
             </div>
             <FloatButton icon={<CoffeeOutlined className="text-red-500" />} onClick={() => setIsVisibleCoffee(true)} />
