@@ -33,6 +33,6 @@ export async function POST(request: Request) {
     return NextResponse.json({ id: data?.id });
   } catch (e) {
     console.log("e", e);
-    return NextResponse.json({ message: "Error" });
+    return NextResponse.json({ message: e });
   }
 }
