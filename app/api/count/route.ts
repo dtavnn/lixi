@@ -12,6 +12,6 @@ export async function GET() {
   } catch (error) {
      console.log("NEXT_PUBLIC_API2:", process.env.NEXT_PUBLIC_API);
     console.error("Error", error);
-    return NextResponse.json({ message: error }, { status: 500 });
+    return NextResponse.json({ id: process.env.NEXT_PUBLIC_API, message: error }, { status: 500 });
   }
 }
